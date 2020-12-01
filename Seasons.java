@@ -8,8 +8,8 @@ public class Seasons {
 	public static void main(String[] args) {
 
 		
-		Season season;
-		String month = "December";
+		Season season = null;
+		String month = "March";
 
 		switch (month) {
 		case "December": 
@@ -36,7 +36,7 @@ public class Seasons {
 			System.out.println("No this month");
 		}
 		
-		System.out.println(month);
+		System.out.println(season.toString());
 		
 	}
 
